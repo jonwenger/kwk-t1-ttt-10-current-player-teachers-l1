@@ -21,5 +21,3 @@ end
 return "X"
 
 end
-
-current_player(board)
