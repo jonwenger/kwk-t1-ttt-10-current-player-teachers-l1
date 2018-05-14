@@ -7,7 +7,7 @@ board.each do |turn|
   puts "#{turn}"
   if turn == "x" || turn == "y"
     counter +=1
-    puts "{counter}"
+    puts "#{counter}"
   end
 end
 end
