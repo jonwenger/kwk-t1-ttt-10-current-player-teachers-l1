@@ -8,6 +8,7 @@ board.each do |turn|
   if turn == "x" || turn == "y"
     counter +=1
     puts "{counter}"
+  end
 end
 end
 
