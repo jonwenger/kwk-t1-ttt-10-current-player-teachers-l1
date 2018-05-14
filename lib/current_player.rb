@@ -15,11 +15,10 @@ end
 
 def current_player(board)
 turn = turn_count(board)
-puts "#{turn}"
-  if counter%2==0
-    return "x"
-  end
-  return "o"
+if turn % 2 == 0
+  return "O"
+end
+return "X"
 
 end
 
