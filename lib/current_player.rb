@@ -1,4 +1,4 @@
-# board = ['x','o','  ', '  ', "o", "X", "O"]
+board = ['x','o','  ', '  ', "o", "X", "O"]
 
 
 def turn_count(board)
