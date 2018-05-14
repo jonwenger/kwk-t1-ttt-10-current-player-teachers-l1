@@ -14,7 +14,8 @@ board.each do |turn|
 end
 
 def current_player(board)
-if  turn_count(board) 
+turn = turn_count(board)
+puts "#{turn}"
   if counter%2==0
     return "x"
   end
@@ -22,4 +23,4 @@ if  turn_count(board)
 
 end
 
-turn_count(board)
+current_player(board)
