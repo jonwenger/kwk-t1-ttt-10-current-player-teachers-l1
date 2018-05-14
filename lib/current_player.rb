@@ -1,5 +1,5 @@
 board = ['x','o']
-turn_count(board)
+
 
 def turn_count(board)
 counter = 0
@@ -15,6 +15,6 @@ def current_player
   end
   return "o"
 
-
-
 end
+
+turn_count(board)
