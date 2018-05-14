@@ -6,6 +6,8 @@ counter = 0
 board.each do |turn|
   puts "#{turn}"
   if turn == "x" || turn == "y"
+    counter +=1
+    puts "{counter}"
 end
 end
 
