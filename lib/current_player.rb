@@ -1,4 +1,4 @@
-board = |"x","o"|
+board = |'x','o'|
 turn_count(board)
 
 def turn_count(board)
